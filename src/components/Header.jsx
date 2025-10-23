@@ -6,10 +6,10 @@ export const Header = () => {
       <h1 className="text-center font-inria-serif-bold text-white text-3xl lg:text-6xl 2xl:text-8xl">Pahrump Realtor</h1>
 
       <div className="flex flex-row pt-12 pb-12 gap-12">
-        <img src="../assets/header/fb-svg.svg" alt="facebook-logo" className="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] 2xl:w-[40px] 2xl:h-[40px] invert"/>
-        <img src="../assets/header/ig-svg.svg" alt="instagram-logo" className="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] 2xl:w-[40px] 2xl:h-[40px] invert"/>
-        <img src="../assets/header/in-svg.svg" alt="linkedin-logo" className="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] 2xl:w-[40px] 2xl:h-[40px] invert"/>
-        <img src="../assets/header/yelp-svg.svg" alt="yelp-logo" className="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] 2xl:w-[40px] 2xl:h-[40px] invert"/>
+        <img src="../assets/header/fb-svg.svg" alt="facebook-logo" className="w-5 h-5 lg:w-[30px] lg:h-[30px] 2xl:w-10 2xl:h-10 invert"/>
+        <img src="../assets/header/ig-svg.svg" alt="instagram-logo" className="w-5 h-5 lg:w-[30px] lg:h-[30px] 2xl:w-10 2xl:h-10 invert"/>
+        <img src="../assets/header/in-svg.svg" alt="linkedin-logo" className="w-5 h-5 lg:w-[30px] lg:h-[30px] 2xl:w-10 2xl:h-10 invert"/>
+        <img src="../assets/header/yelp-svg.svg" alt="yelp-logo" className="w-5 h-5 lg:w-[30px] lg:h-[30px] 2xl:w-10 2xl:h-10 invert"/>
       </div>
     </div>
   )
