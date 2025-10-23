@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@import "./vars.css";
+
+@layer utilities {
+  .font-inria-serif-regular {
+    font-family: var(--font-inria-serif-regular);
+  }
+
+  .font-inria-serif-bold {
+    font-family: var(--font-inria-serif-bold);
+  }
+
+  .font-inria-serif-light {
+    font-family: var(--font-inria-serif-light);
+  }
+
+  .font-inria-sans-regular {
+    font-family: var(--font-inria-sans-regular);
+  }
+
+  .font-inria-sans-bold {
+    font-family: var(--font-inria-sans-bold);
+  }
+
+  .font-inria-sans-light {
+    font-family: var(--font-inria-sans-light);
+  }
+
+  .color-blue {
+    color: var(--color-blue);
+  }
+
+  .color-dark-blue {
+    color: var(--color-dark-blue);
+  }
+
+  .color-gray {
+    color: var(--color-gray);
+  }
+
+  .color-dark-gray {
+    color: var(--color-dark-gray);
+  }
+
+  .color-off-white {
+    color: var(--color-off-white);
+  }
+
+  .color-off-black {
+    color: var(--color-off-black);
+  }
+
+  .color-bg {
+    color: var(--color-bg);
+  }
+
+  .header-bg {
+    background-image: var(--background-header);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .search-bg {
+    background-image: var(--background-search);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @keyframes scroll-continuous {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-scroll-continuous {
+    animation: scroll-continuous 30s linear infinite;
+  }
+
+}

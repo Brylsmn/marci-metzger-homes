@@ -1,0 +1,59 @@
+:root {
+    --font-inria-serif-regular: "Inria-Serif-Regular";
+    --font-inria-serif-bold: "Inria-Serif-Bold";
+    --font-inria-serif-light: "Inria-Serif-Light";
+    --font-inria-sans-regular : "Inria-Sans-Regular";
+    --font-inria-sans-bold : "Inria-Sans-Bold";
+    --font-inria-sans-light : "Inria-Sans-Light";
+    --color-blue : #226597;
+    --color-dark-blue : #1E3A5F;
+    --color-gray : #CBCBCB;
+    --color-dark-gray : #4C585B;
+    --color-off-white : #F8FAFC;
+    --color-off-black : #212121;
+    --color-bg : #E8F0F8;
+    --background-header: url("../assets/header/header-bg.png");
+    --background-search: url("../assets/search/search-bg.png");
+}
+
+@font-face {
+  font-family: 'Inria-Serif-Regular';
+  src: url('../assets/fonts/Inria_Serif/InriaSerif-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inria-Serif-Bold';
+  src: url('../assets/fonts/Inria_Serif/InriaSerif-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inria-Serif-Light';
+  src: url('../assets/fonts/Inria_Serif/InriaSerif-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inria-Sans-Regular';
+  src: url('../assets/fonts/Inria_Sans/InriaSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inria-Sans-Bold';
+  src: url('../assets/fonts/Inria_Sans/InriaSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inria-Sans-Light';
+  src: url('../assets/fonts/Inria_Sans/InriaSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
