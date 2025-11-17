@@ -1,16 +1,21 @@
-# React + Vite
+# Marci Metzger Homes – Homepage Redesign
+A frontend project showcasing a modern redesign of the homepage for Marci Metzger Homes, a real estate business. This project was completed as part of a web developer job application to demonstrate frontend and design skills.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Project Overview
+* Objective: Revamp the homepage to improve aesthetics, usability, and responsiveness.
+* Scope: Only the homepage was redesigned; no backend functionality is included.
+* Reference & Content: Based on the original Marci Metzger Homes site. All images, property information, and content are taken from the original website.
 
-Currently, two official plugins are available:
+# Demo 
+Visit the page here: https://marci-metzger-homes-murex.vercel.app/
+# Tech Stack
+* React + Vite
+* HTML, CSS, JavaScript
+* Responsive design principles
+* ESLint configured for code quality
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Purpose
+This project is not a functional website. Its main goal is to demonstrate:
+* Frontend development skills using modern React and Vite setup
+* Ability to redesign and improve an existing homepage
+* Knowledge of responsive web design and user experience
